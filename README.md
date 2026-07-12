@@ -13,11 +13,18 @@ ___
 - Prise en compte de la couleur secondaire du portail en fonction de la DGA (Bleu, Jaune, Verte, Violette)
 - Boite de recherche globale
 - Notification d'activité de l'intranet
+- Accès à la visite virtuel (detail des différentes sections de la page)
+
+### Pied de Page globale permanent
+- Retour au top
+- Chat bot accessible (Comment performer l'indexation / format MD / RAG / pour une prise de connaissance de l'iA)
+- Mentions légale
+- Plan du site
 
 ### Page Accueil
 - Mode de l'activité actuel de la collectivité (Normal, Alerte ou Vigilance)
 - Affichage conditionnel d'une notification d'information (Campagne en cours), d'une note importante (Jeux, Quiz) ou d'une alerte (Panne, Intempérie)
-- Module d'Acualité avec une tabulation Collectivité, une actualité à la une et quatre actualité secondaire, une tabulation Presse Locale (rss)
+- Module d'Acualité avec une tabulation Collectivité, une actualité à la une et quatre actualité secondaire, une tabulation site internet institutionnel (rss), une tabulation Presse Locale (rss), une tabulation Presse Territorial (rss)
 - Module Nouveaux Arrivants et Stagiaire (liste avec l'indicateur d'intégration en pourcentage)
 - Module Agenda (Futur évenement Commission dialogue social, Réunion et Délibération, Evenement de la collectivité)-> Transformation Actus avec Reportage
 - Dossier (Détail d'un métier)
@@ -32,6 +39,11 @@ ___
   - Activités
   - Coordonnées Responsable 
 
+### Page Résultat du moteur de recherche
+- Recherche pondérer sur les différents types d'éléments (Pages, Actus)
+- Inclusion de repertoire distant via GrphQSL Sharepoint
+- Les résultats Utilisateurs, Sites, Entités renvois vers l'Annuaire des agents
+
 ### Page profil
 - Compteur outil temps de travail
 - Tickets d'assistance en cours
@@ -45,6 +57,8 @@ ___
 - Ma localisation
 - Mes Coordonnées
 - Mes Autorisations Photo, Grade, RGPD (Lettre d'information : Archives, D. Social, Juris, RGPD, Sécurité, Informatique)
+- Génération de ma signature mail Outlook (HTML)
+- Génération de ma carte professionnel imprimable (PDF)
 
 #### Page RH (Reglementations .MD pour versionning et ammendement)
 - Mon organisation (les modes de fonctionnement, normale, alerte, vigilance)
@@ -76,3 +90,7 @@ ___
 - Accueil Collectivité, DGA, Direction, Service / Prévention Santé / Service Supports / Visite virtuel de Portail Agent
 - Process Nouveaux Arrivant
 - Process Stagiaire
+
+### Back-Office : Paramètrage de l'Authentification multiple front-End
+- Authentification via LDAP
+- Authentification via M365
